@@ -3,4 +3,14 @@
     height: 100px;
     background-color: white;
     border: thick solid black;
+    position:relative;
+    pointer-events:fill;
+    
+}
+
+
+.box2{
+    background-color: aqua;
+    padding: 30px;
+    text-align: center;
 }

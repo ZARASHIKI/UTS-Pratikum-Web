@@ -10,16 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="box"></div>
-    <div id="box" style="position: absolute;display: none;">
-    </div>
-    <script>
-        $(document).mousemove(function(e){
-            $("#box").css("display","block");
-            $("#box").css({left:e.pageX,top:e.pageY});
-            x= pageX;
-            y= pageY;
-        })
-    </script>
+    <div id="box"></div>
+    <script src="Script.js"></script>
 </body>
 </html>
